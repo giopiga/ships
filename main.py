@@ -41,7 +41,7 @@ def main():
     df_cargo = pl.read_csv(os.path.join(data_path, file_cargo))
 
     # read tanker data
-    with open(file_tanker, "r") as f:
+    with open(os.path.join(data_path, file_tanker), "r") as f:
         content = f.read()
     modified_content = content.replace(";", ",")  # original file has both ; and ,
     bytes_csv = bytes(modified_content, "utf-8")
