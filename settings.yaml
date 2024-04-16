@@ -1,0 +1,4 @@
+file_cargo: "aisdk-2024-02-02-cargo.csv"
+file_tanker: "aisdk-2024-02-02-tanker.csv"
+
+logging_level: "DEBUG"
